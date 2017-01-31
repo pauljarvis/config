@@ -1,1 +1,17 @@
-# git-config
+[user]
+	email = paul.jarvis@travisperkins.co.uk
+	name = Paul Jarvis
+[branch]
+[core]
+	editor = vim
+[push]
+	default = simple
+[alias]
+  a       = add 
+  b       = branch
+	c = commit -v
+  co      = checkout
+  d       = diff
+  s       = status -s -b
+  l       = log --pretty='format:%C(yellow)%h %C(blue)%ad %C(reset)%s%C(red)%d %C(green)%an%C(reset), %C(cyan)%ar' --date=short
+	cob = checkout -b
