@@ -7,7 +7,7 @@
 [push]
     default = simple
 [alias]
-    a   = add 
+    a   = add -p
     b   = branch
     c   = commit -v
     co  = checkout
